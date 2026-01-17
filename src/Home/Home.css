@@ -1,0 +1,41 @@
+.home-container {
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 80vh; /* Occupies 80% of viewport height, leaving space below for other components like About */
+}
+
+.home-head {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  /* Add any additional styles like width, height, border-radius for the photo */
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  border-radius: 50%; /* Make it circular if desired */
+  object-fit: cover;
+}
+
+.home-container p {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(158, 157, 157);
+  font-weight: bold;
+  z-index: 3;
+  text-align: center;
+}
+
+.name {
+  top: 55%;
+  font-size: 28px;
+}
+
+.description {
+  top: 65%;
+  font-size: 20px;
+}

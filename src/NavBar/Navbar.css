@@ -1,0 +1,27 @@
+.container {
+  background-color: hsla(220, 100%, 94%, 1);
+  height: 80px;
+  position: sticky;
+  top: 0; /* This makes it stick to the top when scrolling */
+  display: flex;
+  align-items: center;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 50px;
+  gap: 50px;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+.nav li {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}

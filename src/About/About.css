@@ -1,0 +1,31 @@
+.about-container {
+  background-image: url("../assets/background2.jpg");
+  background-size: cover;
+  background-position: left;
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.skill h1 {
+  padding-left: 10px;
+  width: 100px;
+  border-radius: 30px;
+}
+
+.skill li {
+  list-style: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
